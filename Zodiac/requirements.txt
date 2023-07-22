@@ -1,0 +1,10 @@
+pyarmor==7.7.4
+httpx
+httpx[socks]
+captchatools==1.2.1
+tls-client
+pystyle==2.0
+brotlipy
+pycryptodome
+pycrypto
+discord_webhook

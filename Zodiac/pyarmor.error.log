@@ -1,0 +1,14 @@
+10668 MainProcess 2023-05-02 22:58:28,011
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\__main__.py", line 688, in main
+    main_entry(sys.argv[1:])
+  File "C:\Users\Zeeshan\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\__main__.py", line 676, in main_entry
+    args.func(ctx, args)
+  File "C:\Users\Zeeshan\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\__main__.py", line 211, in cmd_gen
+    builder.process(options, pack=args.pack)
+  File "C:\Users\Zeeshan\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\generate.py", line 152, in process
+    self._obfuscate_scripts()
+  File "C:\Users\Zeeshan\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyarmor\cli\generate.py", line 124, in _obfuscate_scripts
+    os.makedirs(os.path.dirname(fullpath), exist_ok=True)
+  File "<frozen os>", line 225, in makedirs
+FileNotFoundError: [WinError 161] The specified path is invalid: '\\\\design.py'
